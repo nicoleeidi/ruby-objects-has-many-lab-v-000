@@ -5,11 +5,12 @@ class Author
     @name=name
     @posts = []
   end
-  
+
   def add_post_by_title(title)
     post= Post.new(title)
-  end 
+    @posts << post 
+  end
   def posts
   end
   def
-end 
+end

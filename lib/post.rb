@@ -4,6 +4,6 @@ class Post
     @name=name
   end
   def author_name
-    self.author.name 
-  end 
+    self.author.name
+  end
 end

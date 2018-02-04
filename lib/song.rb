@@ -4,6 +4,6 @@ class Song
     @name=name
     @genre=genre
   end
-  def artist_name 
-  end 
-end 
+  def artist_name
+  end
+end
